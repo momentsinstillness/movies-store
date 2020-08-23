@@ -1,5 +1,5 @@
 def imageName = 'mlabouardy/movies-store'
-def registry = 'https://registry.slowcoder.com'
+def registry = 'https://registry.hub.docker.com/v1/'
 
 node('workers'){
     stage('Checkout'){
